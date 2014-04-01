@@ -16,8 +16,6 @@
         <img class='logo' src='img/logo.png' width='150'>
         <input type='text' id='movie-input-field' placeholder='Enter a movie title..'> <br> 
         <button id='add' class='btn btn-block btn-lg btn-success'><i class='glyphicon glyphicon-plus'></i> Add Movie</button> 
-        <button id='remove-all' class='btn btn-block btn-lg btn-danger'><i class='glyphicon glyphicon-remove'></i> Remove All</button>
-    </div>
 
     <div class='right-panel'><table class='list'></table></div>
 
