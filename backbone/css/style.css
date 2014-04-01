@@ -1,0 +1,74 @@
+body{
+    background-image: url('../img/stardust.png');
+}
+
+.well{
+	height: 900px !important;
+}
+
+.logo{
+	margin-bottom: 60px;
+}
+
+.each-movie{
+	float:left;
+	display: inline !important;
+	border: 1px solid lightgray;
+	margin: 5px auto 5px auto;
+	width: 95%;
+	background: #FFE3E3;
+}
+
+.left-panel{
+	float: left;
+	width: 42%;
+	height: 850px;
+	text-align: center;
+	padding-top: 6%;
+	padding-right: 20px;
+	border-right: 2px solid darkgray;
+}
+
+
+#add, #remove-all{
+	margin: 30px 15px 10px 0px;
+}
+
+#movie-input-field{
+	width: 100%;
+	height: 50px;
+	font-size: 1.5em;
+	margin: auto;
+	padding-left: 20px;
+}
+
+.right-panel{
+	float: left;
+	width: 55%;
+	margin: 25px auto 5px 3%;
+	height: 850px;
+	overflow-y: scroll;
+
+}
+
+.remove-button{
+	float:right;
+	border: 1px solid gray;
+	border-radius: 100px;
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	padding: 1px 3px 0px 3px;
+	background: lightgray;
+	cursor: pointer; 
+}
+
+table.list{
+	width: 100%;
+	margin: 10px auto 10px auto;
+
+}
+
+.meta-label{
+	font-weight: bold;
+}
